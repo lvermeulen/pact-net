@@ -1,0 +1,15 @@
+﻿{
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "Microsoft.AspNetCore.Http.Abstractions": "1.0.0",
+    "Microsoft.AspNetCore.WebUtilities": "1.0.0",
+    "NETStandard.Library": "1.6.0",
+    "PactNet": {"target": "project"}
+  },
+
+  "frameworks": {
+    "netstandard1.6": {
+    }
+  }
+}

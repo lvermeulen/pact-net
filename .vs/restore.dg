@@ -1,0 +1,7 @@
+#:C:\gitrepo\pact-net\src\PactNet.Mocks.MockHttpService.Nancy\PactNet.Mocks.MockHttpService.Nancy.xproj
+C:\gitrepo\pact-net\src\PactNet.Mocks.MockHttpService.Nancy\PactNet.Mocks.MockHttpService.Nancy.xproj|C:\gitrepo\pact-net\src\PactNet\PactNet.xproj
+#:C:\gitrepo\pact-net\test\PactNet.Tests.Mocks.MockHttpService.Nancy\PactNet.Tests.Mocks.MockHttpService.Nancy.xproj
+C:\gitrepo\pact-net\test\PactNet.Tests.Mocks.MockHttpService.Nancy\PactNet.Tests.Mocks.MockHttpService.Nancy.xproj|C:\gitrepo\pact-net\src\PactNet\PactNet.xproj
+#:C:\gitrepo\pact-net\Test\PactNet.Tests\PactNet.Tests.xproj
+C:\gitrepo\pact-net\Test\PactNet.Tests\PactNet.Tests.xproj|C:\gitrepo\pact-net\src\PactNet\PactNet.xproj
+#:C:\gitrepo\pact-net\src\PactNet\PactNet.xproj

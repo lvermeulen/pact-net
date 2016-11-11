@@ -1,0 +1,21 @@
+﻿{
+  "version": "1.0.0",
+  "testRunner": "xunit",
+
+  "dependencies": {
+    "coveralls.io": "1.3.4",
+    "dotnet-test-xunit": "2.2.0-preview2-build1029",
+    "Nancy": "2.0.0-barneyrubble",
+    "NSubstitute": "2.0.0-rc",
+    "PactNet": { "target": "project" },
+    "PactNet.Mocks.MockHttpService.Nancy": { "target": "project" },
+    "OpenCover": "4.6.519",
+    "System.IO.Abstractions.netcore": "2.1.0-alpha3",
+    "xunit": "2.2.0-beta3-build3402"
+  },
+
+  "frameworks": {
+    "net452": {
+    }
+  }
+}

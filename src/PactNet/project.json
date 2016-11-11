@@ -1,0 +1,52 @@
+﻿{
+  "title": "Pact.Net",
+  "version": "0.0.1-alpha",
+  "authors": [ "Luk Vermeulen" ],
+  "copyright": "Copyright 2016",
+  "description": "Nanophone core component",
+  "buildOptions": {
+    "define": [ "LIBLOG_PORTABLE", "LIBLOG_PUBLIC" ],
+    "optimize": true,
+    "outputName": "PactNet",
+    "xmlDoc": false
+  },
+
+  "packOptions": {
+    "owners": [ "Luk Vermeulen" ],
+    "requireLicenseAcceptance": true,
+    "summary": "Nanophone core component",
+    "tags": [ "Service", "Discovery", "ServiceDiscovery", "Consul", "Nancy", "WebApi", "Healing", "Autohealing", "Microservices" ]
+    //"projectUrl": "https://github.com/lvermeulen/Nanophone",
+    //"licenseUrl": "https://github.com/lvermeulen/Nanophone/blob/master/LICENSE",
+    //"iconUrl": "http://i.imgur.com/WnKfKOC.png?1",
+    //"repository": {
+    //  "type": "git",
+    //  "url": "https://github.com/lvermeulen/Nanophone"
+    //}
+  },
+
+  "dependencies": {
+    "System.IO.Abstractions.netcore": "2.1.0-alpha3",
+    "Microsoft.AspNetCore.Http.Abstractions": "1.0.0",
+    "Microsoft.AspNetCore.WebUtilities": "1.0.0",
+    "Newtonsoft.Json": "9.0.1"
+  },
+
+  "frameworks": {
+    "net452": {
+      "frameworkAssemblies": {
+        "System.Net.Http": "4.0.0.0"
+      }
+    },
+    "netstandard1.6": {
+      "dependencies": {
+        "NETStandard.Library": "1.6.0",
+        "System.Diagnostics.StackTrace": "4.0.1",
+        "System.Dynamic.Runtime": "4.0.11",
+        "System.Net.Http": "4.1.0",
+        "System.Net.NameResolution": "4.0.0",
+        "Microsoft.CSharp": "4.0.1"
+      }
+    }
+  }
+}

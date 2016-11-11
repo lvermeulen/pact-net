@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0-*",
+
+  "dependencies": {
+    "Nancy": "2.0.0-barneyrubble",
+    "Nancy.Hosting.Self": "2.0.0-barneyrubble",
+    "PactNet": { "target": "project" },
+    "System.IO.Abstractions.netcore": "2.1.0-alpha3"
+  },
+
+  "frameworks": {
+    "net452": { }
+  }
+}
